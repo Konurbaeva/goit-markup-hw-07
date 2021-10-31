@@ -1,7 +1,5 @@
 .social__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex;
 }
 
 .social__list__item {
@@ -21,9 +19,7 @@
 }
 
 .social__list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex;
   width: 44px;
   height: 44px;
   border-radius: 50%;

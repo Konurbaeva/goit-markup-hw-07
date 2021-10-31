@@ -85,7 +85,7 @@
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
-  color: #fff;
+  color: $primary-white-color;
   text-transform: capitalize;
 
   &:focus,
@@ -130,9 +130,7 @@
   cursor: pointer;
   border: 1px solid #212121;
   border-radius: 2px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex;
   margin-right: 8px;
 }
 

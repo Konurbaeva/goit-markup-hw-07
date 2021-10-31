@@ -130,9 +130,7 @@ svg {
   top: 0;
   z-index: 900;
   background: rgba(0, 0, 0, 0.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex;
   transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -146,7 +144,7 @@ svg {
   width: 100vw;
   height: 100vh;
   max-width: 528px;
-  background: #fff;
+  background: $primary-white-color;
   border-radius: 4px;
   height: 581px;
   position: absolute;
@@ -157,9 +155,7 @@ svg {
   width: 30px;
   height: 30px;
   background: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex;
   position: absolute;
   top: 8px;
   right: 8px;

@@ -990,7 +990,7 @@ svg {
   margin-left: 93px;
 }
 
-.navigation__list_item {
+.navigation__item {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -1002,7 +1002,7 @@ svg {
   letter-spacing: 0.02em;
 }
 
-.navigation__list .item + .item {
+.navigation__list .navigation__item + .navigation__item {
   margin-left: 50px;
 }
 

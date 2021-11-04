@@ -150,7 +150,7 @@
   fill: #2196f3;
 }
 
-.contact__list {
+.contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,7 +161,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16 / 14);
   padding: 32px 0;
   letter-spacing: 0.02em;
   display: -webkit-box;
@@ -175,14 +175,14 @@
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact__list__icon  {
+.contact__icon  {
   margin-right: 10px;
   fill: #757575;
   -webkit-transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact__list .contact__list__item + .contact__list__item {
+.contact .contact__item + .contact__item {
   margin-left: 50px;
 }
 
@@ -441,8 +441,8 @@ ul {
 
 .navigation__text__logo,
 .current,
-.link:hover .contact__list__icon,
-.link:focus .contact__list__icon,
+.link:hover .contact__icon,
+.link:focus .contact__icon,
 .link:hover,
 .link:focus,
 .address-link:hover,

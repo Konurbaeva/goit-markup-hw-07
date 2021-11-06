@@ -161,7 +161,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 16px;
   padding: 32px 0;
   letter-spacing: 0.02em;
   display: -webkit-box;
@@ -441,8 +441,8 @@ ul {
 
 .navigation__text__logo,
 .current,
-.link:hover .contact__icon,
-.link:focus .contact__icon,
+.link:hover .contact__list__icon,
+.link:focus .contact__list__icon,
 .link:hover,
 .link:focus,
 .address-link:hover,
@@ -987,9 +987,10 @@ svg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 93px;
 }
 
-.navigation__item {
+.navigation__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
